@@ -1,8 +1,9 @@
+
 #dirs
 bin/
 obj/
 
-bject files
+# Object files
 *.o
 *.ko
 *.obj
@@ -35,4 +36,7 @@ bject files
 # Debug files
 *.dSYM/
 *.su
+<<<<<<< HEAD
 
+=======
+>>>>>>> ee7bb1278309cf4415f0616ac58bfd85ed2ed8f2
