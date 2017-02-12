@@ -2,179 +2,9 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="libavutil/bprint.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1071" topLine="33" />
-		</Cursor>
-	</File>
-	<File name="libavformat/network.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="895" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="config.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="659" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="libavformat/tls.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="893" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="cmdutils_common_opts.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1089" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="libavformat/network.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1013" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="clock.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3622" topLine="85" />
-		</Cursor>
-	</File>
-	<File name="handle.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="219" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="audio.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="7786" topLine="163" />
-		</Cursor>
-	</File>
-	<File name="base.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3636" topLine="97" />
-		</Cursor>
-	</File>
-	<File name="opt.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4522" topLine="63" />
-		</Cursor>
-	</File>
-	<File name="decode.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="13830" topLine="283" />
-		</Cursor>
-		<Folding>
-			<Collapse line="286" />
-			<Collapse line="309" />
-		</Folding>
-	</File>
-	<File name="ffplay.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2136" topLine="57" />
-		</Cursor>
-		<Folding>
-			<Collapse line="230" />
-			<Collapse line="250" />
-			<Collapse line="256" />
-			<Collapse line="262" />
-			<Collapse line="273" />
-			<Collapse line="299" />
-		</Folding>
-	</File>
-	<File name="clock.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="504" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="cmdutils.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1852" topLine="52" />
-		</Cursor>
-	</File>
-	<File name="packet_queue.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2555" topLine="109" />
-		</Cursor>
-	</File>
-	<File name="libavutil/bprint.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="928" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="libavformat/avio.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="17128" topLine="437" />
-		</Cursor>
-	</File>
-	<File name="libavutil/libm.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1146" topLine="21" />
-		</Cursor>
-	</File>
-	<File name="libavformat/os_support.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1028" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="libavformat/os_support.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1012" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="libavcodec/internal.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="7922" topLine="241" />
-		</Cursor>
-	</File>
-	<File name="io.c" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="17568" topLine="419" />
-		</Cursor>
-		<Folding>
-			<Collapse line="339" />
-			<Collapse line="349" />
-		</Folding>
-	</File>
-	<File name="libavformat/avio.c" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1959" topLine="55" />
-		</Cursor>
-	</File>
-	<File name="cmdutils.c" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4637" topLine="150" />
-		</Cursor>
-	</File>
-	<File name="opt.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1632" topLine="46" />
-		</Cursor>
-	</File>
-	<File name="handle.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4905" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="libavformat/url.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="899" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="video.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1138" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="video.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="17726" topLine="383" />
-		</Cursor>
-		<Folding>
-			<Collapse line="284" />
-			<Collapse line="497" />
-		</Folding>
-	</File>
-	<File name="base.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="91" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="libavutil/dynarray.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -182,19 +12,89 @@
 			<Cursor1 position="2573" topLine="28" />
 		</Cursor>
 	</File>
-	<File name="io.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="ffplay.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="552" topLine="0" />
+			<Cursor1 position="13113" topLine="369" />
 		</Cursor>
 	</File>
-	<File name="frame_queue.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="libavutil/bprint.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3156" topLine="45" />
+			<Cursor1 position="1071" topLine="33" />
 		</Cursor>
 	</File>
-	<File name="frame_queue.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="libavformat/avio.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="607" topLine="0" />
+			<Cursor1 position="17128" topLine="437" />
+		</Cursor>
+	</File>
+	<File name="libavutil/bprint.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="928" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libavformat/avio.c" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1959" topLine="55" />
+		</Cursor>
+	</File>
+	<File name="video.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1138" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="decode.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1174" topLine="39" />
+		</Cursor>
+		<Folding>
+			<Collapse line="68" />
+			<Collapse line="124" />
+			<Collapse line="199" />
+			<Collapse line="286" />
+		</Folding>
+	</File>
+	<File name="io.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="795" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="libavutil/libm.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1146" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="packet_queue.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="376" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="video.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15007" topLine="283" />
+		</Cursor>
+		<Folding>
+			<Collapse line="284" />
+			<Collapse line="577" />
+		</Folding>
+	</File>
+	<File name="io.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13434" topLine="339" />
+		</Cursor>
+		<Folding>
+			<Collapse line="143" />
+			<Collapse line="349" />
+			<Collapse line="419" />
+		</Folding>
+	</File>
+	<File name="cmdutils.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1852" topLine="52" />
+		</Cursor>
+	</File>
+	<File name="handle.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="219" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="libavutil/log.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -202,14 +102,19 @@
 			<Cursor1 position="7840" topLine="205" />
 		</Cursor>
 	</File>
-	<File name="decode.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="libavformat/os_support.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="521" topLine="0" />
+			<Cursor1 position="1012" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="audio.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="config.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="454" topLine="0" />
+			<Cursor1 position="659" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="opt.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4522" topLine="74" />
 		</Cursor>
 	</File>
 	<File name="libavformat/tls.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -217,9 +122,105 @@
 			<Cursor1 position="893" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="packet_queue.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="packet_queue.c" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="93" topLine="0" />
+			<Cursor1 position="222" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="base.h" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1625" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="audio.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3418" topLine="70" />
+		</Cursor>
+	</File>
+	<File name="opt.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1632" topLine="46" />
+		</Cursor>
+	</File>
+	<File name="cmdutils.c" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4637" topLine="150" />
+		</Cursor>
+	</File>
+	<File name="libavformat/url.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="899" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="frame_queue.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3097" topLine="52" />
+		</Cursor>
+		<Folding>
+			<Collapse line="3" />
+			<Collapse line="15" />
+			<Collapse line="36" />
+			<Collapse line="74" />
+		</Folding>
+	</File>
+	<File name="clock.c" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1830" topLine="50" />
+		</Cursor>
+	</File>
+	<File name="audio.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="454" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libavformat/tls.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="893" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libavformat/network.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1013" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="base.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="91" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cmdutils_common_opts.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1089" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="clock.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="504" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libavformat/network.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="895" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="frame_queue.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="424" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="libavformat/os_support.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1028" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="handle.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1375" topLine="37" />
+		</Cursor>
+	</File>
+	<File name="decode.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="235" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
