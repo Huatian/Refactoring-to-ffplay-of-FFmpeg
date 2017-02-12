@@ -1,0 +1,587 @@
+# depslib dependency file v1.0
+1483887719 source:/home/wanghuatian/workspace/codeblocks/ffplay/cmdutils.c
+	<string.h>
+	<stdint.h>
+	<stdlib.h>
+	<errno.h>
+	<math.h>
+	"config.h"
+	"compat/va_copy.h"
+	"libavformat/avformat.h"
+	"libavfilter/avfilter.h"
+	"libavdevice/avdevice.h"
+	"libavresample/avresample.h"
+	"libswscale/swscale.h"
+	"libswresample/swresample.h"
+	"libpostproc/postprocess.h"
+	"libavutil/avassert.h"
+	"libavutil/avstring.h"
+	"libavutil/bprint.h"
+	"libavutil/display.h"
+	"libavutil/mathematics.h"
+	"libavutil/imgutils.h"
+	"libavutil/libm.h"
+	"libavutil/log.h"
+	"libavutil/parseutils.h"
+	"libavutil/pixdesc.h"
+	"libavutil/eval.h"
+	"libavutil/dict.h"
+	"libavutil/opt.h"
+	"libavutil/cpu.h"
+	"libavutil/ffversion.h"
+	"libavutil/version.h"
+	"cmdutils.h"
+	"libavformat/network.h"
+	<sys/time.h>
+	<sys/resource.h>
+	<windows.h>
+	<windows.h>
+	<shellapi.h>
+
+1483878720 /home/wanghuatian/workspace/codeblocks/ffplay/config.h
+
+1480975674 /home/wanghuatian/workspace/codeblocks/ffplay/compat/va_copy.h
+	<stdarg.h>
+
+1483886339 /home/wanghuatian/workspace/codeblocks/ffplay/libavutil/libm.h
+	<math.h>
+	"../config.h"
+	"libavutil/attributes.h"
+	"libavutil/intfloat.h"
+	"libavutil/mathematics.h"
+	"libavutil/mips/libm_mips.h"
+
+1480975674 /home/wanghuatian/workspace/codeblocks/ffplay/cmdutils.h
+	<stdint.h>
+	"config.h"
+	"libavcodec/avcodec.h"
+	"libavfilter/avfilter.h"
+	"libavformat/avformat.h"
+	"libswscale/swscale.h"
+
+1483886399 /home/wanghuatian/workspace/codeblocks/ffplay/libavformat/network.h
+	<errno.h>
+	<stdint.h>
+	"../config.h"
+	"libavutil/error.h"
+	"os_support.h"
+	"avio.h"
+	"url.h"
+	<unistd.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<poll.h>
+
+1483886571 /home/wanghuatian/workspace/codeblocks/ffplay/libavformat/os_support.h
+	"../config.h"
+	<sys/stat.h>
+	<direct.h>
+	<io.h>
+	<fcntl.h>
+	<unistd.h>
+	<winsock2.h>
+	<stdio.h>
+	<windows.h>
+	"libavutil/wchar_filename.h"
+	<winapifamily.h>
+
+1480977953 /home/wanghuatian/workspace/codeblocks/ffplay/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1480977953 /home/wanghuatian/workspace/codeblocks/ffplay/libavformat/url.h
+	"avio.h"
+	"libavformat/version.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+
+1486362071 source:/home/wanghuatian/workspace/codeblocks/ffplay/ffplay.c
+	<signal.h>
+	"libavdevice/avdevice.h"
+	"config.h"
+	"cmdutils.h"
+	"base.h"
+	"frame_queue.h"
+	"packet_queue.h"
+	"opt.h"
+	"clock.h"
+	"audio.h"
+	"video.h"
+	"io.h"
+	"decode.h"
+	"handle.h"
+
+1459218307 /home/wanghuatian/workspace/codeblocks/ffplay/cmdutils_common_opts.h
+
+1483886718 source:/home/wanghuatian/workspace/codeblocks/ffplay/libavformat/avio.c
+	"libavutil/avstring.h"
+	"libavutil/dict.h"
+	"libavutil/opt.h"
+	"libavutil/time.h"
+	"libavutil/avassert.h"
+	"os_support.h"
+	"libavformat/avformat.h"
+	"network.h"
+	"url.h"
+
+1483886919 source:/home/wanghuatian/workspace/codeblocks/ffplay/libavformat/network.c
+	<fcntl.h>
+	"network.h"
+	"tls.h"
+	"url.h"
+	"../libavcodec/internal.h"
+	"libavutil/avutil.h"
+	"libavutil/mem.h"
+	"libavutil/time.h"
+
+1483886778 /home/wanghuatian/workspace/codeblocks/ffplay/libavformat/tls.h
+	"../config.h"
+	"url.h"
+	"libavutil/opt.h"
+
+1483886943 /home/wanghuatian/workspace/codeblocks/ffplay/libavcodec/internal.h
+	<stdint.h>
+	"libavutil/buffer.h"
+	"libavutil/channel_layout.h"
+	"libavutil/mathematics.h"
+	"libavutil/pixfmt.h"
+	"libavcodec/avcodec.h"
+	"../config.h"
+
+1483886965 source:/home/wanghuatian/workspace/codeblocks/ffplay/libavformat/os_support.c
+	"../config.h"
+	"libavformat/avformat.h"
+	"os_support.h"
+	<fcntl.h>
+	<sys/time.h>
+	<winsock2.h>
+	<sys/select.h>
+	"network.h"
+	<stdlib.h>
+
+1483887003 source:/home/wanghuatian/workspace/codeblocks/ffplay/libavformat/tls.c
+	"libavformat/avformat.h"
+	"../libavcodec/internal.h"
+	"network.h"
+	"os_support.h"
+	"url.h"
+	"tls.h"
+	"libavutil/avstring.h"
+	"libavutil/opt.h"
+	"libavutil/parseutils.h"
+
+1483887029 source:/home/wanghuatian/workspace/codeblocks/ffplay/libavformat/url.c
+	"libavformat/avformat.h"
+	"../config.h"
+	"url.h"
+	"network.h"
+	"libavutil/avstring.h"
+
+1483888381 /home/wanghuatian/workspace/codeblocks/ffplay/libavutil/bprint.h
+	<stdarg.h>
+	"libavutil/attributes.h"
+	"libavutil/avstring.h"
+
+1483889178 source:/home/wanghuatian/workspace/codeblocks/ffplay/libavutil/bprint.c
+	<stdarg.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"libavutil/avassert.h"
+	"libavutil/avstring.h"
+	"bprint.h"
+	"libavutil/common.h"
+	"../compat/va_copy.h"
+	"error.h"
+	"libavutil/mem.h"
+
+1480975675 /home/wanghuatian/workspace/codeblocks/ffplay/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1483888523 source:/home/wanghuatian/workspace/codeblocks/ffplay/libavutil/log.c
+	"../config.h"
+	<unistd.h>
+	<io.h>
+	<stdarg.h>
+	<stdlib.h>
+	"libavutil/avutil.h"
+	"bprint.h"
+	"libavutil/common.h"
+	"../libavcodec/internal.h"
+	"libavutil/log.h"
+	<pthread.h>
+	<valgrind/valgrind.h>
+	<windows.h>
+	<string.h>
+
+1483879489 /usr/local/include/libavformat/avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1483879489 /usr/local/include/libavcodec/avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+
+1483879489 /usr/local/include/libavutil/samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1483879489 /usr/local/include/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"rational.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"log.h"
+	"pixfmt.h"
+
+1483879489 /usr/local/include/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"macros.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1483879489 /usr/local/include/libavutil/attributes.h
+
+1483879489 /usr/local/include/libavutil/macros.h
+
+1483879489 /usr/local/include/libavutil/version.h
+	"macros.h"
+
+1483879489 /usr/local/include/libavutil/avconfig.h
+
+1483879489 /usr/local/include/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1483879489 /usr/local/include/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1483879489 /usr/local/include/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1483879489 /usr/local/include/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1483879489 /usr/local/include/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1483879489 /usr/local/include/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+	"version.h"
+
+1483879489 /usr/local/include/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+
+1483879489 /usr/local/include/libavutil/buffer.h
+	<stdint.h>
+
+1483879489 /usr/local/include/libavutil/cpu.h
+	"attributes.h"
+
+1483879489 /usr/local/include/libavutil/channel_layout.h
+	<stdint.h>
+
+1483879489 /usr/local/include/libavutil/dict.h
+	<stdint.h>
+	"version.h"
+
+1483879489 /usr/local/include/libavutil/frame.h
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"pixfmt.h"
+	"version.h"
+
+1483879489 /usr/local/include/libavcodec/version.h
+	"libavutil/version.h"
+
+1483879489 /usr/local/include/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1483879489 /usr/local/include/libavformat/version.h
+	"libavutil/version.h"
+
+1483879489 /usr/local/include/libavfilter/avfilter.h
+	<stddef.h>
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/samplefmt.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"libavfilter/version.h"
+
+1483879489 /usr/local/include/libavfilter/version.h
+	"libavutil/version.h"
+
+1483879489 /usr/local/include/libavdevice/avdevice.h
+	"version.h"
+	"libavutil/log.h"
+	"libavutil/opt.h"
+	"libavutil/dict.h"
+	"libavformat/avformat.h"
+
+1483879489 /usr/local/include/libavdevice/version.h
+	"libavutil/version.h"
+
+1483879489 /usr/local/include/libavutil/opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+	"version.h"
+
+1483879489 /usr/local/include/libavresample/avresample.h
+	"libavutil/avutil.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/mathematics.h"
+	"libavresample/version.h"
+
+1483879489 /usr/local/include/libavresample/version.h
+	"libavutil/version.h"
+
+1483879489 /usr/local/include/libswscale/swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1483879489 /usr/local/include/libswscale/version.h
+	"libavutil/version.h"
+
+1483879489 /usr/local/include/libswresample/swresample.h
+	<stdint.h>
+	"libavutil/frame.h"
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1483879489 /usr/local/include/libswresample/version.h
+	"libavutil/avutil.h"
+
+1483879489 /usr/local/include/libpostproc/postprocess.h
+	"libpostproc/version.h"
+	<inttypes.h>
+
+1483879489 /usr/local/include/libpostproc/version.h
+	"libavutil/avutil.h"
+
+1483879489 /usr/local/include/libavutil/avassert.h
+	<stdlib.h>
+	"avutil.h"
+	"log.h"
+
+1483879489 /usr/local/include/libavutil/avstring.h
+	<stddef.h>
+	<stdint.h>
+	"attributes.h"
+
+1483879489 /usr/local/include/libavutil/display.h
+	<stdint.h>
+
+1483879489 /usr/local/include/libavutil/imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+	"rational.h"
+
+1483879489 /usr/local/include/libavutil/pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+	"version.h"
+
+1483879489 /usr/local/include/libavutil/parseutils.h
+	<time.h>
+	"rational.h"
+
+1483879489 /usr/local/include/libavutil/eval.h
+	"avutil.h"
+
+1483879489 /usr/local/include/libavutil/ffversion.h
+
+1483879489 /usr/local/include/libavutil/time.h
+	<stdint.h>
+
+1483879489 /usr/local/include/libavcodec/avfft.h
+
+1483879489 /usr/local/include/libavfilter/buffersink.h
+	"avfilter.h"
+
+1483879489 /usr/local/include/libavfilter/buffersrc.h
+	"libavcodec/avcodec.h"
+	"avfilter.h"
+
+1484901704 source:/home/wanghuatian/workspace/codeblocks/ffplay/base.c
+	"base.h"
+	"SDL/SDL.h"
+
+1486056405 /home/wanghuatian/workspace/codeblocks/ffplay/base.h
+	"libavcodec/avcodec.h"
+	"libavformat/avformat.h"
+	"libavcodec/avfft.h"
+	"libswscale/swscale.h"
+	"SDL/SDL.h"
+	"SDL/SDL_thread.h"
+
+1484901315 /home/wanghuatian/workspace/codeblocks/ffplay/frame_queue.h
+	"base.h"
+
+1484901498 source:/home/wanghuatian/workspace/codeblocks/ffplay/frame_queue.c
+	"frame_queue.h"
+
+1484902273 /home/wanghuatian/workspace/codeblocks/ffplay/packet_queue.h
+	"base.h"
+
+1484902358 source:/home/wanghuatian/workspace/codeblocks/ffplay/packet_queue.c
+	"packet_queue.h"
+
+1485916723 /home/wanghuatian/workspace/codeblocks/ffplay/opt.h
+	<libio.h>
+	"base.h"
+	"libavutil/log.h"
+	"libavutil/opt.h"
+	"libavformat/avformat.h"
+	"cmdutils.h"
+	"cmdutils_common_opts.h"
+
+1485916723 source:/home/wanghuatian/workspace/codeblocks/ffplay/opt.c
+	"opt.h"
+
+1485875717 source:/home/wanghuatian/workspace/codeblocks/ffplay/audio.c
+	"audio.h"
+
+1486045689 /home/wanghuatian/workspace/codeblocks/ffplay/audio.h
+	"base.h"
+	"clock.h"
+	"frame_queue.h"
+	"libswresample/swresample.h"
+	"libavutil/time.h"
+	"libavutil/avutil.h"
+
+1486278397 /home/wanghuatian/workspace/codeblocks/ffplay/clock.h
+	"base.h"
+	"libavutil/time.h"
+
+1486278401 source:/home/wanghuatian/workspace/codeblocks/ffplay/clock.c
+	"clock.h"
+
+1486392215 /home/wanghuatian/workspace/codeblocks/ffplay/video.h
+	"base.h"
+	"opt.h"
+	"io.h"
+	"handle.h"
+	"frame_queue.h"
+	"libavutil/time.h"
+
+1486392882 source:/home/wanghuatian/workspace/codeblocks/ffplay/video.c
+	"video.h"
+
+1486442616 /home/wanghuatian/workspace/codeblocks/ffplay/io.h
+	"base.h"
+	"opt.h"
+	"packet_queue.h"
+	"frame_queue.h"
+	"decode.h"
+	"audio.h"
+	"video.h"
+	"cmdutils.h"
+	"libswresample/swresample.h"
+	"libswscale/swscale.h"
+	"libavutil/avstring.h"
+
+1486451269 source:/home/wanghuatian/workspace/codeblocks/ffplay/io.c
+	"io.h"
+
+1486056769 source:/home/wanghuatian/workspace/codeblocks/ffplay/decode.c
+	"decode.h"
+
+1486056767 /home/wanghuatian/workspace/codeblocks/ffplay/decode.h
+	"base.h"
+	"opt.h"
+	"clock.h"
+	"packet_queue.h"
+	"frame_queue.h"
+	"libavutil/imgutils.h"
+	"libavutil/opt.h"
+
+1486284691 source:/home/wanghuatian/workspace/codeblocks/ffplay/handle.c
+	"handle.h"
+
+1486284686 /home/wanghuatian/workspace/codeblocks/ffplay/handle.h
+	"base.h"
+	"clock.h"
+	"video.h"
+	"libavutil/time.h"
+

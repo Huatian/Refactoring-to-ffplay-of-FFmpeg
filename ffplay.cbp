@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ffplay" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Script file="lib_finder.script" />
+			<Target title="Debug">
+				<Option output="bin/Debug/ffplay" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ffplay" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="audio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="audio.h" />
+		<Unit filename="base.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="base.h" />
+		<Unit filename="clock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="clock.h" />
+		<Unit filename="cmdutils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmdutils.h" />
+		<Unit filename="cmdutils_common_opts.h" />
+		<Unit filename="compat/va_copy.h" />
+		<Unit filename="config.h" />
+		<Unit filename="decode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="decode.h" />
+		<Unit filename="ffplay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="frame_queue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="frame_queue.h" />
+		<Unit filename="handle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="handle.h" />
+		<Unit filename="io.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="io.h" />
+		<Unit filename="libavcodec/internal.h" />
+		<Unit filename="libavformat/avio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libavformat/avio.h" />
+		<Unit filename="libavformat/network.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libavformat/network.h" />
+		<Unit filename="libavformat/os_support.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libavformat/os_support.h" />
+		<Unit filename="libavformat/tls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libavformat/tls.h" />
+		<Unit filename="libavformat/url.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libavformat/url.h" />
+		<Unit filename="libavutil/bprint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libavutil/bprint.h" />
+		<Unit filename="libavutil/dynarray.h" />
+		<Unit filename="libavutil/libm.h" />
+		<Unit filename="libavutil/log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="opt.h" />
+		<Unit filename="packet_queue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="packet_queue.h" />
+		<Unit filename="video.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="video.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1">
+				<lib name="libavcodec" />
+				<lib name="libavformat" />
+				<lib name="libavutil" />
+				<lib name="libavdevice" />
+				<lib name="libavfilter" />
+				<lib name="libswscale" />
+				<lib name="libswresample" />
+				<lib name="libavresample" />
+				<lib name="libpostproc" />
+				<lib name="sdl" />
+			</lib_finder>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
