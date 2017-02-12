@@ -1,5 +1,10 @@
 # Refactoring-to-ffplay-of-FFmpeg
 
+#说明
+本项目基于FFmpeg_3.0.5中的ffplay进行重构，有利于分析ffplay的整体流程和模块细节。<br>
+项目删掉了filter相关的代码，项目中注释若有不当之处，尽请指正。<br>
+联系邮箱：773512457@qq.com.
+
 # 环境
   ubuntu 16.04LTS x86_64<br>
   ffmpeg 3.0.5<br>
